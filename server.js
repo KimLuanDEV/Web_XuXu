@@ -249,7 +249,7 @@ if (stock < quantity) {
             })}`,
             "",
             "👤 <b>THÔNG TIN KHÁCH HÀNG</b>",
-            `Họ tên: ${escapeTelegramHTML(name)}`,
+            `Họ và tên: ${escapeTelegramHTML(name)}`,
             `SĐT: ${escapeTelegramHTML(phone)}`,
             `Địa chỉ: ${escapeTelegramHTML(address)}`,
             "",
