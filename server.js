@@ -241,7 +241,7 @@ if (stock < quantity) {
 
         // 5. Tạo nội dung Telegram
         const message = [
-            "🛒 <b>ĐƠN HÀNG MỚI - XUXU SHOP</b>",
+            "🛒 <b>ĐƠN HÀNG MỚI - XUXU NGO SHOP</b>",
             "",
             `🆔 Mã đơn: <code>${orderId}</code>`,
             `🕒 Thời gian: ${createdAt.toLocaleString("vi-VN", {
